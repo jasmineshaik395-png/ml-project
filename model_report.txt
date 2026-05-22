@@ -1,0 +1,56 @@
+PREDICTIVE MODELING REPORT
+Best Model: Decision Tree
+
+==================================================
+Logistic Regression
+==================================================
+Accuracy : 95.00%
+AUC Score: 1.0000
+CV Score : 96.50% ± 1.22%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      1.00      0.96        25
+           1       1.00      0.87      0.93        15
+
+    accuracy                           0.95        40
+   macro avg       0.96      0.93      0.95        40
+weighted avg       0.95      0.95      0.95        40
+
+
+==================================================
+Decision Tree
+==================================================
+Accuracy : 100.00%
+AUC Score: 1.0000
+CV Score : 97.50% ± 2.24%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        25
+           1       1.00      1.00      1.00        15
+
+    accuracy                           1.00        40
+   macro avg       1.00      1.00      1.00        40
+weighted avg       1.00      1.00      1.00        40
+
+
+==================================================
+Random Forest
+==================================================
+Accuracy : 97.50%
+AUC Score: 1.0000
+CV Score : 97.50% ± 2.74%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98        25
+           1       0.94      1.00      0.97        15
+
+    accuracy                           0.97        40
+   macro avg       0.97      0.98      0.97        40
+weighted avg       0.98      0.97      0.98        40
+
